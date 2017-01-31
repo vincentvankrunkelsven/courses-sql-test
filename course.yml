@@ -1,8 +1,11 @@
-title                : courses sql test
+title                : Test SQL
 instructors          :
  - filip.schouwenaars@gmail.com
-description          : This is an automatically generated demo course which will help you on your way to create an awesome DataCamp course.
+ - herve@datacamp.com
+ - ludo@datacamp.com
+ - michael@datacamp.com
+description          : This is a course to test SQL
 university           : DataCamp
 difficulty_level     : 2
 time_needed          : 1 hour
-programming_language : python
+programming_language : sql
