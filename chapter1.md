@@ -15,6 +15,16 @@ This is a SQL normal exercise.
 # this is python code
 ```
 
+*** =sample_code
+```{sql}
+# this is sql code
+```
+
+*** =solution
+```{sql}
+# this is sql code
+```
+
 *** =sct
 ```{python}
 # this is python code
