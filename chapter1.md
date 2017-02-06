@@ -68,6 +68,9 @@ success_msg('awesome!')
 
 *** =instructions
 - Just experiment!
+- Second choice
+- third choice
+- last choice
 
 *** =pre_exercise_code
 ```{python}
