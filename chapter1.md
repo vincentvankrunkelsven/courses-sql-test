@@ -12,7 +12,7 @@ This is a SQL normal exercise.
 
 *** =pre_exercise_code
 ```{python}
-# this is python code
+connect('postgresql', 'testdb')
 ```
 
 *** =sample_code
