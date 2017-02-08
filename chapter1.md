@@ -17,19 +17,16 @@ connect('postgresql', 'testdb')
 
 *** =sample_code
 ```{sql}
-# this is sql code
 SELECT * FROM Persons
 ```
 
 *** =solution
 ```{sql}
-# this is sql code
 SELECT * FROM Persons
 ```
 
 *** =sct
 ```{python}
-# this is python code
 success_msg('awesome!')
 ```
 
