@@ -9,3 +9,4 @@ university           : DataCamp
 difficulty_level     : 2
 time_needed          : 1 hour
 programming_language : sql
+from                 : 'sql-base-prod:17'
