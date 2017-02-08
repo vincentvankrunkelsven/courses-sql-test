@@ -27,7 +27,7 @@ SELECT * FROM Persons
 
 *** =sct
 ```{python}
-success_msg('awesome!')
+# success_msg('awesome!')
 ```
 
 --- type:NormalExercise lang:sql xp:50 skills:1 key:2847d58749
