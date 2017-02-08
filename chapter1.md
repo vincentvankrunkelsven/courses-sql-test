@@ -17,21 +17,54 @@ connect('postgresql', 'testdb')
 
 *** =sample_code
 ```{sql}
+# this is sql code
 SELECT * FROM Persons
 ```
 
 *** =solution
 ```{sql}
+# this is sql code
 SELECT * FROM Persons
 ```
 
 *** =sct
 ```{python}
-# success_msg('awesome!')
+# this is python code
+success_msg('awesome!')
 ```
 
 --- type:NormalExercise lang:sql xp:50 skills:1 key:2847d58749
 ## SQL TabExercise
+
+This is a SQL tab exercise.
+
+*** =instructions
+- Just experiment!
+
+*** =pre_exercise_code
+```{python}
+# this is python code
+```
+
+*** =sample_code
+```{sql}
+# this is sql code
+```
+
+*** =solution
+```{sql}
+# this is sql code
+```
+
+*** =sct
+```{python}
+# this is python code
+success_msg('awesome!')
+```
+
+
+--- type:NormalExercise lang:sql xp:50 skills:1 key:fc4ca965b5
+## SQL BulletExercise
 
 This is a SQL tab exercise.
 
