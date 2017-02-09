@@ -96,6 +96,8 @@ This is a SQL tab exercise.
 --- type:MultipleChoiceExercise lang:sql xp:50 skills:1 key:565ae9c1eb
 ## This is a SQL multiple choice exercise.
 
+This is a sql multiple choice exercise.
+
 *** =instructions
 - Just experiment!
 - Second choice
@@ -125,5 +127,5 @@ msg1 = "Correct! As funny as they may look, all these commands are valid ways to
 msg2 = "Command B is valid, but it's not the only one!"
 msg3 = "Both command B and C are valid; what about command A? Try it out in the console."
 msg4 = "Command C is valid, but it's not the only one!"
-test_mc(1,[msg1,msg2,msg3,msg4])
+Ex().test_mc(1,[msg1,msg2,msg3,msg4])
 ```
