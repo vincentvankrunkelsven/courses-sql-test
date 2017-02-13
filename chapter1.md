@@ -17,17 +17,20 @@ connect('postgresql', 'testdb')
 
 *** =sample_code
 ```{sql}
+-- this is sql code
 SELECT * FROM Persons
 ```
 
 *** =solution
 ```{sql}
+-- this is sql code
 SELECT * FROM Persons
 ```
 
 *** =sct
 ```{python}
-# success_msg('awesome!')
+# this is python code
+#success_msg('awesome!')
 ```
 
 --- type:NormalExercise lang:sql xp:50 skills:1 key:2847d58749
@@ -45,23 +48,55 @@ This is a SQL tab exercise.
 
 *** =sample_code
 ```{sql}
-# this is sql code
+-- this is sql code
 ```
 
 *** =solution
 ```{sql}
-# this is sql code
+-- this is sql code
 ```
 
 *** =sct
 ```{python}
 # this is python code
-success_msg('awesome!')
+#success_msg('awesome!')
+```
+
+
+--- type:NormalExercise lang:sql xp:50 skills:1 key:fc4ca965b5
+## SQL BulletExercise
+
+This is a SQL tab exercise.
+
+*** =instructions
+- Just experiment!
+
+*** =pre_exercise_code
+```{python}
+# this is python code
+```
+
+*** =sample_code
+```{sql}
+-- this is sql code
+```
+
+*** =solution
+```{sql}
+-- this is sql code
+```
+
+*** =sct
+```{python}
+# this is python code
+# success_msg('awesome!')
 ```
 
 
 --- type:MultipleChoiceExercise lang:sql xp:50 skills:1 key:565ae9c1eb
 ## This is a SQL multiple choice exercise.
+
+This is a sql multiple choice exercise.
 
 *** =instructions
 - Just experiment!
@@ -76,13 +111,13 @@ connect('postgresql', 'testdb')
 
 *** =sample_code
 ```{sql}
-# this is sql code
+-- this is sql code
 SELECT * FROM Persons
 ```
 
 *** =solution
 ```{sql}
-# this is sql code
+-- this is sql code
 SELECT * FROM Persons
 ```
 
@@ -92,5 +127,5 @@ msg1 = "Correct! As funny as they may look, all these commands are valid ways to
 msg2 = "Command B is valid, but it's not the only one!"
 msg3 = "Both command B and C are valid; what about command A? Try it out in the console."
 msg4 = "Command C is valid, but it's not the only one!"
-test_mc(1,[msg1,msg2,msg3,msg4])
+Ex().test_mc(1,[msg1,msg2,msg3,msg4])
 ```
