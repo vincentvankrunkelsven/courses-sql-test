@@ -18,13 +18,13 @@ connect('postgresql', 'dvdrental')
 *** =sample_code
 ```{sql}
 -- this is sql code
-SELECT * FROM film
+SELECT * FROM film LIMIT 30
 ```
 
 *** =solution
 ```{sql}
 -- this is sql code
-SELECT * FROM film
+SELECT * FROM film LIMIT 30
 ```
 
 *** =sct
