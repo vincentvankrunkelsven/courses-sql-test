@@ -12,19 +12,19 @@ This is a SQL normal exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'testdb')
+connect('postgresql', 'dvdrental')
 ```
 
 *** =sample_code
 ```{sql}
 -- this is sql code
-SELECT * FROM Persons
+SELECT * FROM film
 ```
 
 *** =solution
 ```{sql}
 -- this is sql code
-SELECT * FROM Persons
+SELECT * FROM film
 ```
 
 *** =sct
@@ -106,19 +106,7 @@ This is a sql multiple choice exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'testdb')
-```
-
-*** =sample_code
-```{sql}
--- this is sql code
-SELECT * FROM Persons
-```
-
-*** =solution
-```{sql}
--- this is sql code
-SELECT * FROM Persons
+connect('postgresql', 'dvdrental')
 ```
 
 *** =sct
