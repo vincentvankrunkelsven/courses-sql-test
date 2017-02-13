@@ -22,7 +22,7 @@ connect('postgresql', 'testdb')
 
 *** =solution
 ```{sql}
--- sql code comes here
+SELECT * FROM Persons;
 ```
 
 *** =sct
@@ -51,7 +51,7 @@ This is a SQL tab exercise.
 
 *** =solution
 ```{sql}
--- sql code comes here
+SELECT * FROM Persons;
 ```
 
 *** =sct
@@ -81,7 +81,7 @@ This is a SQL tab exercise.
 
 *** =solution
 ```{sql}
--- sql code comes here
+SELECT * FROM Persons
 ```
 
 *** =sct
