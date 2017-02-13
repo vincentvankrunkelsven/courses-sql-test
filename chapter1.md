@@ -12,19 +12,17 @@ This is a SQL normal exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'dvdrental')
+connect('postgresql', 'testdb')
 ```
 
 *** =sample_code
 ```{sql}
--- this is sql code
-SELECT * FROM film LIMIT 30
+-- sql code comes here
 ```
 
 *** =solution
 ```{sql}
--- this is sql code
-SELECT * FROM film LIMIT 30
+-- sql code comes here
 ```
 
 *** =sct
@@ -48,12 +46,12 @@ This is a SQL tab exercise.
 
 *** =sample_code
 ```{sql}
--- this is sql code
+-- sql code comes here
 ```
 
 *** =solution
 ```{sql}
--- this is sql code
+-- sql code comes here
 ```
 
 *** =sct
@@ -73,17 +71,17 @@ This is a SQL tab exercise.
 
 *** =pre_exercise_code
 ```{python}
-# this is python code
+# python code comes here
 ```
 
 *** =sample_code
 ```{sql}
--- this is sql code
+-- sql code comes here
 ```
 
 *** =solution
 ```{sql}
--- this is sql code
+-- sql code comes here
 ```
 
 *** =sct
@@ -106,7 +104,7 @@ This is a sql multiple choice exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'dvdrental')
+connect('postgresql', 'testdb')
 ```
 
 *** =sct
