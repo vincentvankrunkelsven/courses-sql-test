@@ -5,7 +5,7 @@ tarfile=dvdrental.tar
 dbname=dvdrental
 url=https://s3.amazonaws.com/assets.datacamp.com/course/sql/$zipfile
 wget $url
-unzip -q $file
+unzip -q $zipfile
 
 service postgresql start \
   && sudo -u postgres createdb -O repl $dbname \
