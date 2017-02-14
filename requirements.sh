@@ -31,7 +31,7 @@ rm $zipfile $tarfile
 
 # Define versions
 SQLWHAT_VERSION="v0.0.4"
-SQLBACKEND_VERSION="v0.0.11"
+SQLBACKEND_VERSION="v0.0.12"
 #
 # Install sqlwhat and sqlbackend
 pip3 install git+https://github.com/datacamp/pythonwhat@master
