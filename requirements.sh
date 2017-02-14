@@ -31,7 +31,7 @@ service postgresql start \
 
 # Define versions
 SQLWHAT_VERSION="v0.0.4"
-SQLBACKEND_VERSION="v0.0.10"
+SQLBACKEND_VERSION="v0.0.11"
 #
 # Install sqlwhat and sqlbackend
 pip3 install git+https://github.com/datacamp/pythonwhat@master
