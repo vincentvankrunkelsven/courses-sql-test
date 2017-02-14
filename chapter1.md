@@ -12,7 +12,7 @@ This is a SQL normal exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'testdb')
+connect('postgresql', 'dvdrental')
 ```
 
 *** =sample_code
@@ -22,7 +22,7 @@ connect('postgresql', 'testdb')
 
 *** =solution
 ```{sql}
-SELECT * FROM Persons;
+SELECT film_id, title FROM film;
 ```
 
 *** =sct
@@ -45,7 +45,7 @@ This is a sql multiple choice exercise.
 
 *** =pre_exercise_code
 ```{python}
-connect('postgresql', 'testdb')
+connect('postgresql', 'dvdrental')
 ```
 
 *** =sct
