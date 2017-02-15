@@ -1,4 +1,19 @@
-# set up database
+# Option 1: set up dummy database
+#sqlcode="CREATE TABLE Persons (id int, name varchar(255));
+#INSERT INTO Persons (id, name) VALUES (1, 'Herve'), (2, 'Ludo'),(3, 'Michael'), (4, 'Filip');
+#CREATE TABLE Cities (id int, name varchar(255));
+#INSERT INTO Cities (id, name) VALUES (1, 'Antwerp'), (2, 'Waterloo'),(3, 'Philly');
+#CREATE TABLE Housing (id int, person_id int, city_id int);
+#INSERT INTO Housing (id, person_id, city_id) VALUES (1, 1, 2), (2, 2, 2), (3, 3, 3), (4, 4, 1);"
+#sqlfile=build_db.sql
+#echo $sqlcode > $sqlfile
+#dbname=testdb
+#service postgresql start \
+#  && sudo -u postgres createdb -O repl $dbname \
+#  && sudo -u repl psql -d $dbname -a -f $sqlfile \
+#  && service postgresql stop
+
+# Option 2: set up realistic database
 apt-get update && apt-get install -y unzip
 zipfile=dvdrental.zip
 tarfile=dvdrental.tar
@@ -14,26 +29,10 @@ service postgresql start \
 
 rm $zipfile $tarfile
 
-# # set up database
-#sqlcode="CREATE TABLE Persons (id int, name varchar(255));
-#INSERT INTO Persons (id, name) VALUES (1, 'Herve'), (2, 'Ludo'),(3, 'Michael'), (4, 'Filip');
-#CREATE TABLE Cities (id int, name varchar(255));
-#INSERT INTO Cities (id, name) VALUES (1, 'Antwerp'), (2, 'Waterloo'),(3, 'Philly');
-#CREATE TABLE Housing (id int, person_id int, city_id int);
-#INSERT INTO Housing (id, person_id, city_id) VALUES (1, 1, 2), (2, 2, 2), (3, 3, 3), (4, 4, 1);"
-#sqlfile=build_db.sql
-#echo $sqlcode > $sqlfile
-#dbname=testdb
-#service postgresql start \
-#  && sudo -u postgres createdb -O repl $dbname \
-#  && sudo -u repl psql -d $dbname -a -f $sqlfile \
-#  && service postgresql stop
-
 # Define versions
 SQLWHAT_VERSION="v0.0.4"
 SQLBACKEND_VERSION="fix-error"
-# rebuild fix error...
-#
+
 # Install sqlwhat and sqlbackend
 pip3 install git+https://github.com/datacamp/pythonwhat@master
 pip3 install git+https://github.com/datacamp/sqlwhat@$SQLWHAT_VERSION
