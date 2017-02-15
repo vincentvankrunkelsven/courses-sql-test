@@ -27,7 +27,7 @@ SELECT film_id, title FROM film;
 
 *** =sct
 ```{python}
-Ex().success_msg('awesome!')
+success_msg('You are fabulous')
 ```
 
 
