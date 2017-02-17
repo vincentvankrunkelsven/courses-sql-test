@@ -30,6 +30,7 @@ service postgresql start \
 rm $zipfile $tarfile
 
 # Define versions
+# rebuild
 SQLWHAT_VERSION="builds-dev"
 SQLBACKEND_VERSION="v0.0.13"
 
