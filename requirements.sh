@@ -31,7 +31,7 @@ rm $zipfile $tarfile
 
 # Define versions
 # rebuild!!!!!!!
-SQLWHAT_VERSION="builds-dev"
+SQLWHAT_VERSION="v0.0.6"
 SQLBACKEND_VERSION="v0.0.13"
 
 # Install sqlwhat and sqlbackend
