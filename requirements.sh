@@ -30,8 +30,7 @@ service postgresql start \
 rm $zipfile $tarfile
 
 # Define versions
-# rebuild!!!!!!!!
-SQLWHAT_VERSION="v0.0.6"
+SQLWHAT_VERSION="v0.0.7"
 SQLBACKEND_VERSION="v0.0.13"
 
 # Install sqlwhat and sqlbackend
