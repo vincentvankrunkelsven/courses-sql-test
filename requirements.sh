@@ -29,11 +29,12 @@ service postgresql start \
 
 rm $zipfile $tarfile
 
-# Define versions
-SQLWHAT_VERSION="v0.0.7"
-SQLBACKEND_VERSION="v0.0.13"
+# disable for now, is in shared image.
+## Define versions
+#SQLWHAT_VERSION="v0.0.7"
+#SQLBACKEND_VERSION="v0.0.13"
 
-# Install sqlwhat and sqlbackend
-pip3 install git+https://github.com/datacamp/pythonwhat@master
-pip3 install git+https://github.com/datacamp/sqlwhat@$SQLWHAT_VERSION
-pip3 install git+https://$GITHUB_TOKEN@github.com/datacamp/sqlbackend.git/@$SQLBACKEND_VERSION
+## Install sqlwhat and sqlbackend
+#pip3 install git+https://github.com/datacamp/pythonwhat@master
+#pip3 install git+https://github.com/datacamp/sqlwhat@$SQLWHAT_VERSION
+#pip3 install git+https://$GITHUB_TOKEN@github.com/datacamp/sqlbackend.git/@$SQLBACKEND_VERSION
