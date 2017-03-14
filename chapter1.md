@@ -56,3 +56,38 @@ msg3 = "Wrong 2"
 msg4 = "Wrong 3"
 Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
+
+--- type:NormalExercise lang:sql xp:100 skills:1 key:b88e30c6b7
+## Example of NormalExercise testing where clause
+
+*** =instructions
+
+- Select all columns from the `film` table, where `film_id` is less than 5.
+
+
+*** =hint
+
+*** =pre_exercise_code
+```{sql}
+connect("postgresql", "dvdrental")
+```
+
+*** =sample_code
+```{sql}
+SELECT * FROM film ____
+```
+
+*** =solution
+```{sql}
+SELECT * FROM film WHERE film_id < 5
+
+```
+
+*** =sct
+```{sql}
+Ex().check_result()
+Ex().check_statement("select") \
+    .check_clause("where_clause") \
+    .has_equal_ast(msg="result looks correct, but ast doesn't match")
+```
+
