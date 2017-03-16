@@ -20,9 +20,6 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
-*** =key1
-4029c42036
-
 *** =instructions1
 Do some stuff
 
@@ -39,9 +36,6 @@ success_msg('You are fabulous')
 
 *** =type2
 MultipleChoiceExercise
-
-*** =key2
-9db8c33cba
 
 *** =question2
 What do you think?
