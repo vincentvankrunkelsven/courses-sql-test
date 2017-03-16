@@ -20,6 +20,8 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
+*** =key1: e7cd8d5cb0
+
 *** =instructions1
 Do some stuff
 
@@ -36,6 +38,8 @@ success_msg('You are fabulous')
 
 *** =type2
 MultipleChoiceExercise
+
+*** =key2: 216ce6d206
 
 *** =question2
 What do you think?
