@@ -44,7 +44,7 @@ MultipleChoiceExercise
 *** =question2
 What do you think?
 
-*** =instructions2
+*** =possible_answers2
 - One
 - Two
 - Three
