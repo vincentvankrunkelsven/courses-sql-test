@@ -62,7 +62,7 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 --- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
 ## Testing Bullet subexercises
 
-This is a subexercise. Updated this and that.
+This is a subexercise. Updated this.
 
 *** =pre_exercise_code
 ```{python}
@@ -76,6 +76,8 @@ connect('postgresql', 'dvdrental')
 
 *** =type1
 NormalExercise
+
+*** =key1: e7cd8f5cb3
 
 *** =instructions1
 Do some stuff
@@ -93,6 +95,8 @@ success_msg('You are fabulous')
 
 *** =type2
 NormalExercise
+
+*** =key2: e7cd9e5cb0
 
 *** =instructions2
 Do some stuff part 2
