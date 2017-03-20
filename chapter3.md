@@ -60,7 +60,7 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
 
 --- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
-## Testing subexercises
+## Testing Bullet subexercises
 
 This is a subexercise. Updated this and that.
 
