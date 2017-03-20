@@ -2,7 +2,7 @@
 title       : Testing subexercises
 description : This thing is meant to test subexercises
 
---- type:TabExercise lang:r xp:100 skills:1 key:ed98f7522c
+--- type:TabExercise lang:sql xp:100 skills:1 key:ed98f7522c
 ## Testing subexercises
 
 This is a subexercise. Updated here and there.
