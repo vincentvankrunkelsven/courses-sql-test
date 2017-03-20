@@ -5,7 +5,7 @@ description : This thing is meant to test subexercises
 --- type:TabExercise lang:r xp:100 skills:1 key:ed98f7522c
 ## Testing subexercises
 
-This is a subexercise. Updated here and there.
+This is a subexercise. Updated here.
 
 *** =pre_exercise_code
 ```{python}
@@ -20,7 +20,7 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
-*** =key1: e7cd8d5cb0
+*** =key1: e7cd8d45cb0
 
 *** =instructions1
 Do some stuff
@@ -39,7 +39,7 @@ success_msg('You are fabulous')
 *** =type2
 MultipleChoiceExercise
 
-*** =key2: 216ce6d206
+*** =key2: 216ce6d2106
 
 *** =question2
 What do you think?
@@ -62,7 +62,7 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 --- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
 ## Testing Bullet subexercises
 
-This is a subexercise. Updated this.
+This is a subexercise. Updated this and that.
 
 *** =pre_exercise_code
 ```{python}
@@ -77,7 +77,7 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
-*** =key1: f4b7565ve846d7
+*** =key1: f4b7565ve8467
 
 *** =instructions1
 Do some stuff
@@ -96,7 +96,7 @@ success_msg('You are fabulous')
 *** =type2
 NormalExercise
 
-*** =key2: fd34f3507f3f5
+*** =key2: fd34f3507f35
 
 *** =instructions2
 Do some stuff part 2
