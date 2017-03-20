@@ -77,7 +77,7 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
-*** =key1: e7cd8f5cb3
+*** =key1: f4b7e846d7
 
 *** =instructions1
 Do some stuff
@@ -96,7 +96,7 @@ success_msg('You are fabulous')
 *** =type2
 NormalExercise
 
-*** =key2: e7cd9e5cb0
+*** =key2: fd3407f3f5
 
 *** =instructions2
 Do some stuff part 2
@@ -111,4 +111,3 @@ SELECT film_id, title FROM film;
 # not supported yet
 success_msg('You are fabulous')
 ```
-
