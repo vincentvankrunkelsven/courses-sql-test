@@ -103,7 +103,7 @@ Do some stuff part 2
 
 *** =solution2
 ```{sql}
-SELECT film_id, title FROM film;
+SELECT film_id, title FROM film
 ```
 
 *** =sct2
