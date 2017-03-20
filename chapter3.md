@@ -93,20 +93,10 @@ SELECT film_id, title FROM film;
 success_msg('You are fabulous')
 ```
 
-*** =pre_exercise_code
-```{python}
-connect('postgresql', 'dvdrental')
-```
-
-*** =sample_code
-```{sql}
--- sql code comes here part 2
-```
-
 *** =type2
 NormalExercise
 
-*** =key1: e7cd8d5cb0
+*** =key2: e7cd8d5cb0
 
 *** =instructions2
 Do some stuff part 2
