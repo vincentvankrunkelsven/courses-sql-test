@@ -58,3 +58,66 @@ msg3 = "Wrong 2"
 msg4 = "Wrong 3"
 Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
+
+--- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
+## Testing subexercises
+
+This is a subexercise. Updated this and that.
+
+*** =pre_exercise_code
+```{python}
+connect('postgresql', 'dvdrental')
+```
+
+*** =sample_code
+```{sql}
+-- sql code comes here
+```
+
+*** =type1
+NormalExercise
+
+*** =key1: e7cd8d5cb0
+
+*** =instructions1
+Do some stuff
+
+*** =solution1
+```{sql}
+SELECT film_id, title FROM film;
+```
+
+*** =sct1
+```{python}
+# not supported yet
+success_msg('You are fabulous')
+```
+
+*** =pre_exercise_code
+```{python}
+connect('postgresql', 'dvdrental')
+```
+
+*** =sample_code
+```{sql}
+-- sql code comes here part 2
+```
+
+*** =type2
+NormalExercise
+
+*** =key1: e7cd8d5cb0
+
+*** =instructions2
+Do some stuff part 2
+
+*** =solution2
+```{sql}
+SELECT film_id, title FROM film;
+```
+
+*** =sct2
+```{python}
+# not supported yet
+success_msg('You are fabulous')
+```
