@@ -5,7 +5,7 @@ description : This thing is meant to test subexercises
 --- type:TabExercise lang:r xp:100 skills:1 key:ed98f7522c
 ## Testing subexercises
 
-This is a subexercise. Updated here and there.
+This is a subexercise. Updated here and there
 
 *** =pre_exercise_code
 ```{python}
@@ -33,7 +33,7 @@ SELECT film_id, title FROM film;
 *** =sct1
 ```{python}
 # not supported yet
-Ex.success_msg('You are fabulous')
+# success_msg('You are fabulous')
 ```
 
 *** =type2
@@ -62,7 +62,7 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 --- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
 ## Testing Bullet subexercises
 
-This is a subexercise. Updated this.
+This is a subexercise. Updated this
 
 *** =pre_exercise_code
 ```{python}
@@ -90,7 +90,7 @@ SELECT film_id, title FROM film;
 *** =sct1
 ```{python}
 # not supported yet
-success_msg('You are fabulous')
+#success_msg('You are fabulous')
 ```
 
 *** =type2
@@ -109,5 +109,5 @@ SELECT film_id, title FROM film
 *** =sct2
 ```{python}
 # not supported yet
-success_msg('You are fabulous')
+#success_msg('You are fabulous')
 ```
