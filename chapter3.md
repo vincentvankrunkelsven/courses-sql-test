@@ -5,7 +5,7 @@ description : This thing is meant to test subexercises
 --- type:TabExercise lang:r xp:100 skills:1 key:ed98f7522c
 ## Testing subexercises
 
-This is a subexercise. Updated here
+This is a subexercise. Updated here and there.
 
 *** =pre_exercise_code
 ```{python}
@@ -33,7 +33,7 @@ SELECT film_id, title FROM film;
 *** =sct1
 ```{python}
 # not supported yet
-success_msg('You are fabulous')
+Ex.success_msg('You are fabulous')
 ```
 
 *** =type2
