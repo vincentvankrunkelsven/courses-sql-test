@@ -20,6 +20,8 @@ connect('postgresql', 'dvdrental')
 *** =type1
 NormalExercise
 
+*** =xp: 30
+
 *** =key1: e7cd8d45cb0
 
 *** =instructions1
