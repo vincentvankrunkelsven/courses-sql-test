@@ -74,11 +74,6 @@ connect('postgresql', 'dvdrental')
 -- sql code comes here.
 ```
 
-*** =type1
-NormalExercise
-
-*** =key1: f4b7465ve8467
-
 *** =instructions1
 Do some stuff
 
@@ -92,14 +87,12 @@ SELECT film_id, title FROM film;
 # not supported yet
 #success_msg('You are fabulous')
 ```
-
-*** =type2
-NormalExercise
-
-*** =key2: fd34f3517f35
-
 *** =instructions2
 Do some stuff part 2.
+
+*** =type1
+NormalExercise
+
 
 *** =solution2
 ```{sql}
@@ -111,3 +104,7 @@ SELECT film_id, title FROM film
 # not supported yet
 #success_msg('You are fabulous')
 ```
+
+*** =type2
+NormalExercise
+
