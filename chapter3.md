@@ -117,6 +117,8 @@ connect('postgresql', 'dvdrental')
 
 *** =type1: NormalExercise
 
+*** =key1: ef2615728f
+
 *** =xp1: 50
 *** =instructions1: Do some stuff
 *** =solution1
@@ -145,6 +147,8 @@ Ex().check_result()
 
 
 *** =type3: NormalExercise
+
+*** =key3: 9a7d35e39d
 
 *** =xp3: 50
 *** =instructions3: Do some stuff part 3.
