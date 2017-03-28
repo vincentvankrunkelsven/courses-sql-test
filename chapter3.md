@@ -5,7 +5,7 @@ description : This thing is meant to test subexercises
 --- type:TabExercise key:ed98f7522c
 ## TabExercise
 
-This is a tabexercise. ASF
+This is a tabexercise. Great
 XP should be defined at subexercise level.
 
 *** =pre_exercise_code
@@ -20,7 +20,9 @@ connect('postgresql', 'dvdrental')
 
 *** =type1: NormalExercise
 *** =key1: e7cd8d45cb0
-*** =xp1:50
+
+*** =xp1: 50
+
 *** =instructions1
 Do some stuff
 
@@ -36,7 +38,9 @@ Ex().check_result()
 
 *** =type2: MultipleChoiceExercise
 *** =key2: 216ce6d2106
-*** =xp2:50
+
+*** =xp2: 50
+
 *** =question2
 What do you think?
 
@@ -56,9 +60,8 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
 
 *** =type3: NormalExercise
+*** =xp3: 50
 
-*** =key3: f643f41db4
-*** =xp3:50
 *** =instructions3: Do some stuff part 3.
 *** =solution3
 ```{sql}
@@ -72,7 +75,7 @@ Ex().check_result()
 
 *** =type4: NormalExercise
 *** =key4: 2805953617
-*** =xp4:50
+
 *** =instructions4: Do some stuff part 4.
 *** =solution4
 ```{sql}
@@ -86,7 +89,9 @@ Ex().check_result()
 
 *** =type5: NormalExercise
 *** =key5: b78ff98e7e
-*** =xp5:50
+
+*** =xp5: 50
+
 *** =instructions5: Do some stuff part 4.
 *** =solution5
 ```{sql}
@@ -102,7 +107,7 @@ Ex().check_result()
 --- type:BulletExercise key:ac8d4e05c2
 ## BulletExercise
 
-This is a bullet exercise.
+This is a bullet exercise. Great
 XP should be defined at subexercise level.
 
 *** =pre_exercise_code
@@ -116,9 +121,7 @@ connect('postgresql', 'dvdrental')
 ```
 
 *** =type1: NormalExercise
-
-*** =key1: 1a70791d9f
-
+*** =key1: f4b7465ve8467
 *** =xp1: 50
 *** =instructions1: Do some stuff
 *** =solution1
@@ -147,9 +150,7 @@ Ex().check_result()
 
 
 *** =type3: NormalExercise
-
-*** =key3: c95c343a20
-
+*** =key3: 1f85f63e9a
 *** =xp3: 50
 *** =instructions3: Do some stuff part 3.
 *** =solution3
