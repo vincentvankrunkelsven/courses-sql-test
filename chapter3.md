@@ -94,6 +94,8 @@ Do some stuff part 2.
 NormalExercise
 
 
+*** =key1: 6496276182
+
 *** =solution2
 ```{sql}
 SELECT film_id, title FROM film
@@ -107,4 +109,6 @@ SELECT film_id, title FROM film
 
 *** =type2
 NormalExercise
+
+*** =key2: 23c31be68e
 
