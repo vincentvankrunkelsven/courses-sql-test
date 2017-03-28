@@ -60,6 +60,8 @@ Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
 
 *** =type3: NormalExercise
+*** =key3: 92721baccd
+
 *** =xp3: 50
 
 *** =instructions3: Do some stuff part 3.
