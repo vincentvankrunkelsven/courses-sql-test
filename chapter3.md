@@ -2,10 +2,11 @@
 title       : Testing subexercises
 description : This thing is meant to test subexercises
 
---- type:TabExercise lang:r xp:100 skills:1 key:ed98f7522c
-## Testing subexercises
+--- type:TabExercise key:ed98f7522c
+## TabExercise
 
-This is a subexercise. Updated here and there
+This is a tabexercise. Great
+XP should be defined at subexercise level.
 
 *** =pre_exercise_code
 ```{python}
@@ -17,12 +18,10 @@ connect('postgresql', 'dvdrental')
 -- sql code comes here
 ```
 
-*** =type1
-NormalExercise
-
-*** =xp: 30
-
+*** =type1: NormalExercise
 *** =key1: e7cd8d45cb0
+
+*** =xp1: 50
 
 *** =instructions1
 Do some stuff
@@ -34,14 +33,13 @@ SELECT film_id, title FROM film;
 
 *** =sct1
 ```{python}
-# not supported yet
-# success_msg('You are fabulous')
+Ex().check_result()
 ```
 
-*** =type2
-MultipleChoiceExercise
-
+*** =type2: MultipleChoiceExercise
 *** =key2: 216ce6d2106
+
+*** =xp2: 50
 
 *** =question2
 What do you think?
@@ -61,10 +59,59 @@ msg4 = "Wrong 3"
 Ex().test_mc(2,[msg1,msg2,msg3,msg4])
 ```
 
---- type:BulletExercise lang:r xp:100 skills:1 key:ac8d4e05c2
-## Testing Bullet subexercises
+*** =type3: NormalExercise
 
-This is a subexercise. Updated this
+*** =key3: f643f41db4
+
+*** =xp3: 50
+
+*** =instructions3: Do some stuff part 3.
+*** =solution3
+```{sql}
+SELECT film_id, title FROM film
+```
+
+*** =sct3
+```{python}
+Ex().check_result()
+```
+
+*** =type4: NormalExercise
+*** =key4: 2805953617
+
+*** =instructions4: Do some stuff part 4.
+*** =solution4
+```{sql}
+SELECT film_id, title FROM film
+```
+
+*** =sct4
+```{python}
+Ex().check_result()
+```
+
+*** =type5: NormalExercise
+*** =key5: b78ff98e7e
+
+*** =xp5: 50
+
+*** =instructions5: Do some stuff part 4.
+*** =solution5
+```{sql}
+SELECT film_id, title FROM film
+```
+
+*** =sct5
+```{python}
+Ex().check_result()
+```
+
+
+--- type:BulletExercise key:ac8d4e05c2
+## BulletExercise
+
+This is a bullet exercise. Great
+XP should be defined at subexercise level.
 
 *** =pre_exercise_code
 ```{python}
@@ -72,13 +119,16 @@ connect('postgresql', 'dvdrental')
 ```
 
 *** =sample_code
-```{sql}
+```{python}
 -- sql code comes here.
 ```
 
-*** =instructions1
-Do some stuff
+*** =type1: NormalExercise
+*** =key1: f4b7465ve8467
 
+*** =xp1: 50
+
+*** =instructions1: Do some stuff
 *** =solution1
 ```{sql}
 SELECT film_id, title FROM film;
@@ -86,18 +136,15 @@ SELECT film_id, title FROM film;
 
 *** =sct1
 ```{python}
-# not supported yet
-#success_msg('You are fabulous')
+Ex().check_result()
 ```
-*** =instructions2
-Do some stuff part 2.
 
-*** =type1
-NormalExercise
+*** =type2: NormalExercise
+*** =key2: fd34f3517f35
 
+*** =xp2: 50
 
-*** =key1: 6496276182
-
+*** =instructions2: Do some stuff part 2.
 *** =solution2
 ```{sql}
 SELECT film_id, title FROM film
@@ -105,12 +152,23 @@ SELECT film_id, title FROM film
 
 *** =sct2
 ```{python}
-# not supported yet
-#success_msg('You are fabulous')
+Ex().check_result()
 ```
 
-*** =type2
-NormalExercise
 
-*** =key2: 23c31be68e
+*** =type3: NormalExercise
 
+*** =xp3: 50
+
+*** =key3: 1f85f63e9a
+
+*** =instructions3: Do some stuff part 3.
+*** =solution3
+```{sql}
+SELECT film_id, title FROM film
+```
+
+*** =sct3
+```{python}
+Ex().check_result()
+```
